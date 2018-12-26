@@ -39,9 +39,18 @@ a {
   padding: 8px 0;
   padding-right: 0 !important;
 }
-.banner-img {
+.p-banner {
+  font-size: 20px;
+}
+.btn-banner {
+  padding: 10px 0px;
+  width: 110px;
+  font-size: 18px;
+}
+.size-banner {
   width: 100%;
 }
-.full-width {
-  padding: 0px;
+.img-banner {
+  height: 400px;
+  object-fit: cover;
 }
