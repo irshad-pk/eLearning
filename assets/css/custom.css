@@ -91,21 +91,49 @@ a:hover{
   width: 74px;
   height: 98px;
   background-size: contain;
-  margin-left: 130px;
+  margin-left: 135px;
 }
 .footer-img-2 {
-  width: 180px;
+  width: 170px;
   height: 98px;
   background-size: contain;
-  margin-left: 18px;
+  margin-left: 95px;
 }
 .footer-img-3 {
   width: 110px;
   height: 98px;
   background-size: contain;
-  margin-left: 50px;
+  margin-left: 128px;
 }
 .first-footer-heading {
   font-weight: 600;
   padding-top: 10px;
+}
+.first-footer-text {
+  color: #6d6d6d;
+  font-size: 18px;
+}
+.first-sub {
+  padding-top: 25px;
+  clear: both;
+}
+.center {
+  text-align: center;
+}
+.first-sub h2 {
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+}
+.first-sub p {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 18px;
+}
+.first-sub button {
+  padding: 10px 0px;
+  width: 110px;
+  font-size: 18px;
+  text-align: center;
 }
