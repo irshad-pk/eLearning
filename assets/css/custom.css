@@ -64,8 +64,18 @@ a {
   width: 100%;
   object-fit: cover;
 }
+.img-profile {
+  border-radius: 50px;
+  width: 55px;
+  float: left;
+}
+.user-profile {
+  padding-top: 10px;
+  font-weight: 600;  
+}
 .more-link {
   padding-top: 20px;
+  font-size: 20px;
 }
 a:hover{
   color: inherit;
