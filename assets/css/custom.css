@@ -115,10 +115,8 @@ a:hover{
 }
 .first-sub {
   padding-top: 25px;
+  padding-bottom: 20px;
   clear: both;
-}
-.center {
-  text-align: center;
 }
 .first-sub h2 {
   font-weight: 600;
@@ -136,4 +134,53 @@ a:hover{
   width: 110px;
   font-size: 18px;
   text-align: center;
+  border: none;
+}
+.second-footer {
+  background-color: #222525;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.first-footer-nav {
+  color: #ededed;
+  float: left;
+  font-size: 18px;
+}
+.second-footer-nav {
+  float: right;
+  color: #787976;
+  font-size: 25px;
+  margin: 5px 0;
+}
+.last-footer {
+  padding-top: 35px;
+  background-color: #000000;
+  color: #666666;
+  min-height: 230px;
+}
+.last-footer li {
+  padding: 4px 0px;
+}
+.al-nav {
+  font-size: 13px;
+  display: inline-block;
+}
+.al-nav a:hover {
+  text-decoration: underline;
+}
+.aj-nav {
+  font-size: 13px;
+  display: inline-block;
+  padding-top: 27px;
+}
+.footer-text {
+  font-size: 13px;
+}
+.footer-img-size {
+  width: 150px;
+  float: right;
+  padding-bottom: 25px;
+}
+.float-para {
+  float: right;
 }
