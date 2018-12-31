@@ -1,6 +1,9 @@
 body {
   font-family: "Arial",Helvetica Neue,Helvetica,sans-serif;
 }
+.active {
+  color: green;
+}
 .top-nav {
   background-color: #f2f2f2;
   height: 35px;
@@ -253,3 +256,22 @@ a:hover{
 }
 
 /* Catalogue css */
+
+
+.catalogue-img {
+  width: 104%;
+  height: 100%;
+  background-size: cover;
+  object-fit: cover;
+}
+@media (max-width: 767px) {
+  .catalogue-img {
+    width: 100%;
+  }
+}
+.cat-row {
+  padding-top: 30px;
+}
+.cat-card-side {
+  background-color: white;
+}
