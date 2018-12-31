@@ -5,8 +5,17 @@ body {
   background-color: #f2f2f2;
   height: 35px;
 }
-.registration {
+.register-nav a:hover {
+  color: white;
   background: #dba200;
+}
+@media (max-width: 768px) {
+  .top-nav {
+    display: none;
+  }
+}
+.registration {
+  background: #e4b01a;
   font-size: 16px;
   color: white;
   padding: 6px 30px;
@@ -22,7 +31,22 @@ a {
 }
 .second-nav {
   background-color: #f8f9fa!important;
-  border-bottom: 2px solid green;
+  border-bottom: 3px solid green;
+}
+@media (max-width: 768px) {
+  #to-hide {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  #to-show {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  #to-show {
+    display: flex;
+  }
 }
 .heading-title {
   font-size: 30px;
@@ -39,6 +63,10 @@ a {
   padding: 8px 0;
   padding-right: 0 !important;
 }
+.logo-mobile {
+  height: 45px;
+  float: right;
+}
 .p-banner {
   font-size: 20px;
 }
@@ -46,12 +74,21 @@ a {
   padding: 10px 0px;
   width: 110px;
   font-size: 18px;
+  border-radius: 0px;
 }
 .size-banner {
   width: 100%;
+  border-top: none;
+  border-right: none;
+  border-left: none;
 }
 .banner-text {
   top: 157px;
+}
+@media (max-width: 700px) {
+  .banner-text {
+    top: 50px;
+  }
 }
 .img-banner {
   height: 400px;
@@ -59,8 +96,8 @@ a {
 }
 .heading-main-container {
   font-weight: 600;
-  margin-top: 50px;
   margin-bottom: 20px;
+  padding-top: 25px;
 }
 .img-blog-main-container {
   height: 150px;
@@ -73,8 +110,9 @@ a {
   float: left;
 }
 .user-profile {
-  padding-top: 10px;
+  padding-top: 20px;
   font-weight: 600;
+  padding-left: 70px;
 }
 .more-link {
   padding-top: 20px;
@@ -148,6 +186,7 @@ a:hover{
   font-size: 18px;
   text-align: center;
   border: none;
+  border-radius: 0px;
 }
 .second-footer {
   background-color: #222525;
@@ -158,12 +197,21 @@ a:hover{
   color: #ededed;
   float: left;
   font-size: 18px;
+  padding-top: 6px;
+}
+.first-footer-nav a:hover {
+  text-decoration: underline;
 }
 .second-footer-nav {
   float: right;
   color: #787976;
   font-size: 25px;
-  margin: 5px 0;
+}
+.social-link-first a:hover {
+  color: #337ab7;;
+}
+.social-link-second a:hover {
+  color: red;
 }
 .last-footer {
   padding-top: 35px;
@@ -197,3 +245,11 @@ a:hover{
 .float-para {
   float: right;
 }
+.last-footer-heading {
+  font-weight: 600!important;
+}
+.card-courses {
+  padding-bottom: 20px;
+}
+
+/* Catalogue css */
