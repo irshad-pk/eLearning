@@ -8,7 +8,7 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" crossorigin="anonymous">
   <!-- font awesome for icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"  crossorigin="anonymous">
 
   <!-- site icon -->
   <link rel="shortcut icon" href="assets/media/favicon.ico" type="image/vnd.microsoft.icon" />
@@ -44,7 +44,7 @@
           <ul class="nav flex-column">
             <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Home"><a class="nav-link heading-title" href="#">eLearning</a></li>
             <ul class="nav" id=to-hide>
-              <li class="nav-item sub-heading"><a class="nav-link active" href="#">Course Catalogue</a></li>
+              <li class="nav-item sub-heading"><a class="nav-link active" href="#">Course Catalog</a></li>
               <li class="nav-item sub-heading"><a class="nav-link" href="#">Blog</a></li>
             </ul>
           </ul>
@@ -62,25 +62,215 @@
   </div>
 
   <!-- couse-search-filters -->
-
-  <div class="">
-
+  <div class="course-catalogue">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="catalog-heading">Course Catalog</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <form class="form-inline" action="index.html" method="post" id=to-hide>
+            <div class="input-group">
+              <input type="search" class="form-control input-size">
+              <span class="input-group-append">
+                <button class="btn btn-outline-secondary" disabled type="button">
+                  <i class="fa fa-search"></i>
+                </button>
+              </span>
+            </div>
+            <select class="form-control dropdown-size">
+              <option>Category</option>
+            </select>
+            <select class="form-control dropdown-size">
+              <option>Instructor</option>
+              <option>Shakeeb</option>
+              <option>Faslu</option>
+              <option>Nabeel</option>
+              <option>Abbass</option>
+              <option>Nishan</option>
+              <option>Mammu</option>
+              <option>Jerry</option>
+              <option>Sameer</option>
+              <option>Inshad</option>
+            </select>
+            <select class="form-control dropdown-size">
+              <option>Language</option>
+              <option>English</option>
+              <option>Arabic</option>
+            </select>
+            <button type="button" class="btn btn-success btn-search form-control">Search</button>
+          </form>
+          <div class="mobile-view" id=to-show>
+            <i class="fas fa-search"></i>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
   <!-- courses as cards -->
-
   <div class="main-container">
     <div class="container">
-      <div class="row cat-row">
+      <div class="row catalogue-row">
         <div class="col-md-4 col-xs-12">
           <img src="assets/media/TVPR02_Self-Confidence_Catalogue.png" class="catalogue-img" alt="...">
         </div>
         <div class="col-md-8 col-xs-12 cat-card-side">
-          <h6><a href="#">Gain self-confidence for the host and guest</a></h6>
-          <p>When a person decides to enter the world of media, he needs an important part to accompany him every day in front of the television screen, which is self-confidence, so that it </p>
+          <h4 class="cat-card-heading"><a href="#">Gain self-confidence for the host and guest</a></h4>
+          <p class="text-muted">When a person decides to enter the world of media, he needs an important part to accompany him every day in front of the television screen, which is self-confidence, so that it </p>
+          <font class="user-place">Self Placed</font>
           <div class="users-profile">
             <img src="assets/media/picture-21932-1542094916.jpg" class="img-profile" alt="...">
-            <p class="card-text user-profile">Ahmed Youssef Al - Maliki</p>
+            <font class="user-name">Ahmed Youssef Al - Maliki</font>
+            <div class="cat-social">
+              <a href="#"><i class="far fa-star save-icon"></i>save</a>
+              <a href="#"><img src="assets/media/share.png" class="share-icon" alt="...">share</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row catalogue-row">
+        <div class="col-md-4 col-xs-12">
+          <img src="assets/media/JRSK04-CourseCatalouge.png" class="catalogue-img" alt="...">
+        </div>
+        <div class="col-md-8 col-xs-12 cat-card-side">
+          <h4 class="cat-card-heading"><a href="#">Journalistic Occupational Safety</a></h4>
+          <p class="text-muted">Today's press work in volatile areas poses a variety of risks, raising questions about the Arab journalists' training preparations to understand journalistic safety and the implementation of </p>
+          <font class="user-place">Self Placed</font>
+          <div class="users-profile">
+            <img src="assets/media/picture-18984-1534337961.jpg" class="img-profile" alt="...">
+            <font class="user-name">Abdullah Is Broken</font>
+            <div class="cat-social">
+              <a href="#"><i class="far fa-star save-icon"></i>save</a>
+              <a href="#"><img src="assets/media/share.png" class="share-icon" alt="...">share</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row catalogue-row">
+        <div class="col-md-4 col-xs-12">
+          <img src="assets/media/INSN02-webphoto_0 (1).png" class="catalogue-img" alt="...">
+        </div>
+        <div class="col-md-8 col-xs-12 cat-card-side">
+          <h4 class="cat-card-heading"><a href="#">Self-marketing via Twitter</a></h4>
+          <p class="text-muted">Self-marketing is a door that opens up many opportunities in our lives, and Twitter can be a very effective tool in this regard, whatever your business, passion or goal you seek.</p>
+          <font class="user-place">Self Placed</font>
+          <div class="users-profile">
+            <img src="assets/media/picture-1147-1507724983.jpg" class="img-profile" alt="...">
+            <font class="user-name">Ammar Mohammed</font>
+            <div class="cat-social">
+              <a href="#"><i class="far fa-star save-icon"></i>save</a>
+              <a href="#"><img src="assets/media/share.png" class="share-icon" alt="...">share</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row catalogue-row">
+        <div class="col-md-4 col-xs-12">
+          <img src="assets/media/PTC8.png" class="catalogue-img" alt="...">
+        </div>
+        <div class="col-md-8 col-xs-12 cat-card-side">
+          <h4 class="cat-card-heading"><a href="#">Stand in front of the camera</a></h4>
+          <p class="text-muted">A journalist needs to master the moment in which he is recorded and signed in the TV report. This is the moment that will link the person to the report. It also represents the link between</p>
+          <font class="user-place">Self Placed</font>
+          <div class="users-profile">
+            <font class="user-name">Multiple Instructors</font>
+            <div class="cat-social">
+              <a href="#"><i class="far fa-star save-icon"></i>save</a>
+              <a href="#"><img src="assets/media/share.png" class="share-icon" alt="...">share</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row catalogue-row">
+        <div class="col-md-4 col-xs-12">
+          <img src="assets/media/لغة-الجسد-الاعلامية7.png" class="catalogue-img" alt="...">
+        </div>
+        <div class="col-md-8 col-xs-12 cat-card-side">
+          <h4 class="cat-card-heading"><a href="#">Body language information</a></h4>
+          <p class="text-muted">Every broadcast and every look of the announcer has the same importance. The announcer, with his dynamic performance, his looks and the tone of his voice, delivers many messages</p>
+          <font class="user-place">Self Placed</font>
+          <div class="users-profile">
+            <img src="assets/media/picture-1153-1508164350.jpg" class="img-profile" alt="...">
+            <font class="user-name">Khadija Ben Qana</font>
+            <div class="cat-social">
+              <a href="#"><i class="far fa-star save-icon"></i>save</a>
+              <a href="#"><img src="assets/media/share.png" class="share-icon" alt="...">share</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row catalogue-row">
+        <div class="col-md-4 col-xs-12">
+          <img src="assets/media/المقابلة-الصحفية-للتلفزيون3.png" class="catalogue-img" alt="...">
+        </div>
+        <div class="col-md-8 col-xs-12 cat-card-side">
+          <h4 class="cat-card-heading"><a href="#">TV interviews</a></h4>
+          <p class="text-muted">TV interviews are an important point in any media process. Their mastery emphasizes the talent of the broadcaster. Preparing for it requires a set of knowledge and skills. The</p>
+          <font class="user-place">Self Placed</font>
+          <div class="users-profile">
+            <img src="assets/media/picture-1152-1508163752.jpg" class="img-profile" alt="...">
+            <font class="user-name">Mohammed</font>
+            <div class="cat-social">
+              <a href="#"><i class="far fa-star save-icon"></i>save</a>
+              <a href="#"><img src="assets/media/share.png" class="share-icon" alt="...">share</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row catalogue-row">
+        <div class="col-md-4 col-xs-12">
+          <img src="assets/media/الحضور-الالكتروني3.png" class="catalogue-img" alt="...">
+        </div>
+        <div class="col-md-8 col-xs-12 cat-card-side">
+          <h4 class="cat-card-heading"><a href="#">Effective e - attendance</a></h4>
+          <p class="text-muted">Your presence on the Internet - specifically on the social networking platforms - must have a goal behind it, and there may be multiple goals, but presence and e-presence remain </p>
+          <font class="user-place">Self Placed</font>
+          <div class="users-profile">
+            <img src="assets/media/picture-1151-1508157153.jpg" class="img-profile" alt="...">
+            <font class="user-name">Ahmed Ashour</font>
+            <div class="cat-social">
+              <a href="#"><i class="far fa-star save-icon"></i>save</a>
+              <a href="#"><img src="assets/media/share.png" class="share-icon" alt="...">share</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row catalogue-row">
+        <div class="col-md-4 col-xs-12">
+          <img src="assets/media/التخطيط-للمقابلة-الصحفية (1).png" class="catalogue-img" alt="...">
+        </div>
+        <div class="col-md-8 col-xs-12 cat-card-side">
+          <h4 class="cat-card-heading"><a href="#">Planning for press interviews</a></h4>
+          <p class="text-muted">Each interview is successful and valuable from the point of view of the viewer shows that a lot of effort has been made before the interview and until its implementation until it appears in</p>
+          <font class="user-place">Self Placed</font>
+          <div class="users-profile">
+            <img src="assets/media/picture-1150-1508146770.jpg" class="img-profile" alt="...">
+            <font class="user-name">Osman Ay Farah</font>
+            <div class="cat-social">
+              <a href="#"><i class="far fa-star save-icon"></i>save</a>
+              <a href="#"><img src="assets/media/share.png" class="share-icon" alt="...">share</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row catalogue-row">
+        <div class="col-md-4 col-xs-12">
+          <img src="assets/media/Artboard 1.png" class="catalogue-img" alt="...">
+        </div>
+        <div class="col-md-8 col-xs-12 cat-card-side">
+          <h4 class="cat-card-heading"><a href="#">Write content to Twitter</a></h4>
+          <p class="text-muted">Twitter is especially important because Twitter is one of the fastest growing news outlets, and it is necessary for self-marketing, brand marketing, and the ability to make the Twitter content</p>
+          <font class="user-place">Self Placed</font>
+          <div class="users-profile">
+            <img src="assets/media/picture-1147-1507724983.jpg" class="img-profile" alt="...">
+            <font class="user-name">Ammar Mohammed</font>
+            <div class="cat-social">
+              <a href="#"><i class="far fa-star save-icon"></i>save</a>
+              <a href="#"><img src="assets/media/share.png" class="share-icon" alt="...">share</a>
+            </div>
           </div>
         </div>
       </div>
@@ -98,11 +288,11 @@
             <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
           </ul>
           <ul class="nav second-footer-nav">
-            <li class="nav-item social-link-first"><a class="nav-link" href="https://www.facebook.com/ajelearn"><i class="fa fa-facebook"></i></a></li>
-            <li class="nav-item social-link-first"><a class="nav-link" href="#"><i class="fa fa-twitter"></i></a></li>
-            <li class="nav-item social-link-first"><a class="nav-link" href="#"><i class="fa fa-linkedin"></i></a></li>
-            <li class="nav-item social-link-second"><a class="nav-link" href="#"><i class="fa fa-youtube-play"></i></a></li>
-            <li class="nav-item social-link-second"><a class="nav-link" href="#"><i class="fa fa-instagram"></i></a></li>
+            <li class="nav-item social-link-first"><a class="nav-link" href="https://www.facebook.com/ajelearn"><i class="fab fa-facebook-f"></i></a></li>
+            <li class="nav-item social-link-first"><a class="nav-link" href="#"><i class="fab fa-twitter"></i></a></li>
+            <li class="nav-item social-link-first"><a class="nav-link" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+            <li class="nav-item social-link-second"><a class="nav-link" href="#"><i class="fab fa-youtube"></i></a></li>
+            <li class="nav-item social-link-second"><a class="nav-link" href="#"><i class="fab fa-instagram"></i></a></li>
           </ul>
         </div>
       </div>

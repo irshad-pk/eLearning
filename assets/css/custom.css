@@ -269,9 +269,65 @@ a:hover{
     width: 100%;
   }
 }
-.cat-row {
+.catalogue-row {
   padding-top: 30px;
 }
 .cat-card-side {
   background-color: white;
+}
+.users-profile {
+  padding-top: 10px;
+}
+.cat-social {
+  color: green;
+  float: right;
+  padding-top: 15px;
+}
+.share-icon {
+  width: 30px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+.save-icon {
+  font-size: 22px;
+  padding-right: 6px;
+}
+.user-name {
+  padding: 10px;
+}
+.user-place {
+  font-size: 14px;
+}
+.catalog-heading {
+  font-weight: 600;
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+.btn-search {
+  border-radius: 0px;
+  width: 110px!important;
+  font-size: 14px;
+}
+.form-inline {
+  padding-bottom: 20px;
+}
+.dropdown-size {
+  padding-right: 125px;
+  font-size: 14px;
+  margin-left: 13px;
+  margin-right: 13px;
+  border-radius: 0px;
+}
+.input-size {
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+.mobile-view {
+  float: right;
+  color: #ddd;
+  line-height: 5;
+}
+.btn-outline-secondary {
+  border: none;
+  border-bottom: 1px solid #ddd;
 }
