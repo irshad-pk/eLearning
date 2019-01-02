@@ -80,18 +80,45 @@ a {
   border-radius: 0px;
 }
 .size-banner {
-  width: 100%;
-  border-top: none;
-  border-right: none;
-  border-left: none;
+width: 100%;
+}
+.carousel-inner {
+  height: 405px;
+}
+@media (max-width: 767px) {
+  .carousel-inner {
+    height: 150px;
+  }
 }
 .banner-text {
-  top: 157px;
+  top: -820px;
 }
 @media (max-width: 700px) {
   .banner-text {
-    top: 50px;
+    top: 0px;
+    padding-top: 5px;
   }
+}
+@media (max-width: 767px) {
+  .p-banner {
+    font-size: 12px;
+  }
+}
+@media (max-width: 767px) {
+  .btn-banner {
+    padding: 3px 0px;
+    width: 55px;
+    font-size: 12px;
+    border-radius: 0px;
+  }
+}
+@media (max-width: 767px) {
+  #change {
+    font-size: 16px;
+  }
+}
+.carousel-control-next, .carousel-control-prev {
+  top: -395px!important;
 }
 .img-banner {
   height: 400px;
@@ -274,6 +301,7 @@ a:hover{
 }
 .cat-card-side {
   background-color: white;
+  padding-left: 20px;
 }
 .users-profile {
   padding-top: 10px;
@@ -334,4 +362,7 @@ a:hover{
 #hide-outline:focus{
   border-color: #ced4da;
   box-shadow: none;
+}
+.cat-card-heading {
+  padding-top: 10px;
 }
