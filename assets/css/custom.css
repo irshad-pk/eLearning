@@ -331,3 +331,7 @@ a:hover{
   border: none;
   border-bottom: 1px solid #ddd;
 }
+#hide-outline:focus{
+  border-color: #ced4da;
+  box-shadow: none;
+}
