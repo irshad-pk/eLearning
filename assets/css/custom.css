@@ -95,7 +95,7 @@ width: 100%;
 }
 @media (max-width: 700px) {
   .banner-text {
-    top: 0px;
+    top: -160px;
     padding-top: 5px;
   }
 }
@@ -106,9 +106,9 @@ width: 100%;
 }
 @media (max-width: 767px) {
   .btn-banner {
-    padding: 3px 0px;
+    padding: 2px 0px;
     width: 55px;
-    font-size: 12px;
+    font-size: 11px;
     border-radius: 0px;
   }
 }
@@ -119,6 +119,11 @@ width: 100%;
 }
 .carousel-control-next, .carousel-control-prev {
   top: -395px!important;
+}
+@media (max-width: 767px) {
+  .carousel-control-next, .carousel-control-prev {
+    top: -168px!important;
+  }
 }
 .img-banner {
   height: 400px;
